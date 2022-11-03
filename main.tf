@@ -10,7 +10,7 @@ terraform {
     }
   }
 }
-
+/*
 provider "aws" {
   region  = var.region
 }
@@ -203,3 +203,4 @@ resource "aws_key_pair" "hashicat" {
   key_name   = local.private_key_filename
   public_key = tls_private_key.hashicat.public_key_openssh
 }
+*/
