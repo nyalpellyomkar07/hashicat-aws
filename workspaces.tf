@@ -1,5 +1,5 @@
  
-resource "tfe_notification_configuation" "test"{
+resource "tfe_notification_configuration" "test"{
   name             = "aws-learning"
   enabled          = true
   destination_type = "microsoft-teams"
